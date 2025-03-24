@@ -1,1 +1,130 @@
 test    
+ID	Author	Component 	Category	Priority	is smoke test case?	is integration test case?	is regression test case?	Test case	Test Data	Test step	Expected Result	Actual result	Assosiated Defect ID	Remarks											
+TCS_001																									
+
+Defect ID	component	status	priority	severity	Environment 	Default title	Defect description	Step to reproduce	Expected behaviour	Actual	Attachment	Browser	Device	Category	Reorted By	Reported Date	Assigned to
+
+
+1. Page Load & General UI	
+Test Case ID	Test Case Description
+LP-001	Verify that the landing page loads within an acceptable time limit (e.g., <3 seconds).
+LP-002	Ensure that all images, icons, and videos load correctly without distortion.
+LP-003	Verify that the header, footer, and main content are properly displayed.
+LP-004	Check that the favicon appears correctly on the browser tab.
+LP-005	Ensure that the background (image, color, video) loads and displays properly.
+2. Navigation & Header	
+Test Case ID	Test Case Description
+LP-006	Verify that the logo redirects to the homepage when clicked.
+LP-007	Ensure that the primary navigation menu links work correctly.
+LP-008	Check that the sticky header remains functional when scrolling (if applicable).
+LP-009	Test if the navigation menu is responsive on different screen sizes.
+LP-010	Verify that the search functionality in the header (if present) works correctly.
+3. Hero Section (Banner & Headline)	
+Test Case ID	Test Case Description
+LP-011	Ensure that the main headline is visible and formatted correctly.
+LP-012	Verify that the hero section text does not overlap with other elements.
+LP-013	Test if the Call-to-Action (CTA) button is visible and clickable.
+LP-014	Ensure that the hero section image/video is displayed correctly.
+LP-015	Test the hover effect on the CTA button (if applicable).
+4. Call-to-Action (CTA) Buttons & Forms	
+Test Case ID	Test Case Description
+LP-016	Verify that all CTA buttons (e.g., "Sign Up," "Buy Now," "Get Started") are working correctly.
+LP-017	Test if the CTA buttons are visually prominent and contrast with the background.
+LP-018	Verify that the lead capture form (if present) is functional.
+LP-019	Check if the email/phone number fields validate input correctly.
+LP-020	Ensure that users receive a success message after submitting the form.
+5. Testimonials & Reviews Section	
+Test Case ID	Test Case Description
+LP-021	Ensure that customer reviews/testimonials display correctly.
+LP-022	Verify that the carousel (if present) works for scrolling through testimonials.
+LP-023	Test if images of customers (if any) are visible and correctly aligned.
+LP-024	Check if star ratings (if applicable) display correctly.
+LP-025	Verify that the testimonial section is responsive on different devices.
+6. Features & Benefits Section	
+Test Case ID	Test Case Description
+LP-026	Verify that all feature descriptions are correctly formatted.
+LP-027	Ensure that feature icons are correctly displayed.
+LP-028	Check if feature tooltips (if present) display correctly on hover.
+LP-029	Test if "Read More" or "Learn More" links navigate correctly.
+LP-030	Verify that this section is fully visible and not overlapping with other sections.
+7. Footer & Contact Information	
+Test Case ID	Test Case Description
+LP-031	Ensure that the footer contains correct links (Privacy Policy, Terms & Conditions, etc.).
+LP-032	Verify that social media icons redirect to the correct pages.
+LP-033	Test if the contact email and phone number are clickable.
+LP-034	Check that the Google Maps embed (if applicable) loads properly.
+LP-035	Verify that the footer layout is consistent across all pages.
+8. Performance, Security & SEO	
+Test Case ID	Test Case Description
+LP-036	Test the page loading time using tools like GTmetrix or Google PageSpeed.
+LP-037	Check if the page is mobile-friendly using Google's Mobile-Friendly Test.
+LP-038	Verify that meta title and description are correctly set.
+LP-039	Ensure that structured data (Schema Markup) is implemented correctly.
+LP-040	Test the website's SSL certificate and ensure HTTPS is enabled.
+9. Error Handling & Broken Links	
+Test Case ID	Test Case Description
+LP-041	Verify that there are no broken links on the page.
+LP-042	Ensure that the page does not throw JavaScript console errors.
+LP-043	Check if forms handle errors correctly when fields are left blank.
+LP-044	Verify that a custom 404 page is displayed when navigating to a non-existent page.
+LP-045	Test the site's error logging and reporting mechanisms.
+
+
+
+
+1. General Responsiveness	
+Test Case ID	Test Case Description
+RSP-001	Verify that the website adapts correctly to different screen sizes (Desktop, Tablet, Mobile).
+RSP-002	Check that content resizes correctly when switching between portrait and landscape modes on mobile devices.
+RSP-003	Ensure that elements do not overlap or cut off when viewed on smaller screens.
+RSP-004	Test if the website layout remains intact when resizing the browser window manually.
+RSP-005	Verify that the font size adjusts properly on different devices.
+2. Navigation Menu & Header	
+Test Case ID	Test Case Description
+RSP-006	Ensure that the navigation menu converts into a mobile-friendly version (hamburger menu) on small screens.
+RSP-007	Test if the hamburger menu is clickable and expands properly.
+RSP-008	Verify that the dropdown menu items are accessible and clickable.
+RSP-009	Ensure that sticky headers work correctly on mobile and tablet devices.
+RSP-010	Check that the search bar (if available) is functional on mobile devices.
+3. Images, Videos, and Media	
+Test Case ID	Test Case Description
+RSP-011	Verify that images scale properly without breaking layout.
+RSP-012	Ensure that videos are playable and do not overflow the screen.
+RSP-013	Check if background images adjust correctly to different resolutions.
+RSP-014	Test if image carousels and sliders are functional on mobile.
+RSP-015	Verify that media elements (icons, graphics, SVGs) do not become pixelated on high-resolution screens.
+4. Forms & Input Fields	
+Test Case ID	Test Case Description
+RSP-016	Check if form fields adjust properly on mobile.
+RSP-017	Ensure that the keyboard type changes based on the input field (e.g., numeric keyboard for phone numbers).
+RSP-018	Verify that radio buttons and checkboxes are easy to select on touch devices.
+RSP-019	Test the alignment of labels and placeholders in mobile view.
+RSP-020	Ensure that the Submit button remains visible and clickable on all devices.
+5. Call-to-Action (CTA) Buttons & Links	
+Test Case ID	Test Case Description
+RSP-021	Verify that buttons resize properly and are not too small on mobile.
+RSP-022	Ensure that button spacing prevents accidental clicks.
+RSP-023	Test if buttons have proper hover effects on touch devices.
+RSP-024	Check if all links are easy to tap and navigate.
+RSP-025	Verify that phone numbers and email links are clickable on mobile devices.
+6. Page Layout & Content	
+Test Case ID	Test Case Description
+RSP-026	Ensure that text does not overflow or get cut off on smaller screens.
+RSP-027	Check that padding and margins adjust properly on different devices.
+RSP-028	Test if content blocks stack correctly on mobile view.
+RSP-029	Verify that scrollbars do not appear unnecessarily on mobile.
+RSP-030	Ensure that floating elements (e.g., chat buttons, popups) do not block content.
+7. Footer & Contact Information	
+Test Case ID	Test Case Description
+RSP-031	Verify that the footer content is properly aligned in mobile view.
+RSP-032	Ensure that contact details (phone, email, address) are properly displayed.
+RSP-033	Test if social media icons are easily tappable.
+RSP-034	Verify that footer links do not overlap or break.
+RSP-035	Check if the copyright text remains visible on all screen sizes.
+8. Performance & Speed	
+Test Case ID	Test Case Description
+RSP-036	Test the website’s loading speed on mobile networks (3G, 4G, 5G, Wi-Fi).
+RSP-037	Check if lazy loading is implemented for images and videos.
+RSP-038	Verify that unnecessary scripts do not slow down mobile performance.
+RSP-039	Ensure that animations and transitions are smooth on all devices.
+RSP-040	Test if the website maintains performance in low-power mode (battery saving mode).
